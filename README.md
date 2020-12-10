@@ -1,3 +1,4 @@
+# Build status
 [![Build Status](https://dev.azure.com/EmersonOrci/DevOpsBuildPipelinesExample/_apis/build/status/erorci.pipelines-dotnet-core?branchName=master)](https://dev.azure.com/EmersonOrci/DevOpsBuildPipelinesExample/_build/latest?definitionId=7&branchName=master)
 
 # Sample ASP.NET Core application for Azure Pipelines docs
