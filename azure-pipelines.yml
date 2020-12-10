@@ -18,7 +18,7 @@ steps:
   displayName: Build
   inputs:
     command: build
-    projects: '$(Build.SourcesDirectory)/gated-checkin/GatedCheckin.sln'
+    projects: "**/*.csproj"
     arguments: '--configuration $(buildConfiguration)'
 
 # You just added coverlet.collector to use 'XPlat Code Coverage'
