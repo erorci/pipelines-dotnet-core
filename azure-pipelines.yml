@@ -16,7 +16,3 @@ extends:
   template: simple-param.yml
   parameters:
       yesNo: false # set to a non-boolean value to have the build fail
-
-steps:
-- script: dotnet build --configuration $(buildConfiguration)
-  displayName: 'dotnet build $(buildConfiguration)'
